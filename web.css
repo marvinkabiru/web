@@ -1,0 +1,47 @@
+/*startof div.html*/
+html, body{
+    padding:0;
+    margin:0;
+}
+#body{
+    background-color:#00ccff;
+    font-size:14px
+}
+#topbar{
+    height:50px;
+    background-color: white;
+}
+#topbar #left{
+    width:30%;
+    float:left;
+    height:100%;
+    font-size:40px;
+   
+}
+#topbar #right{
+    width:50%;
+    float:right;
+    height:100%;
+    font-size:40px;
+   
+}
+#topbar #right a{
+    display:inline;
+    font-size:40px;
+    background-color:greenyellow;
+    text-decoration:none;
+}
+
+#topbar #right a:hover{
+    padding: 10px;
+    color:red;
+}
+/*startof bg.image*/
+image, body{
+    padding:0;
+    margin:0;
+#image{
+    margin-top: 50px;
+    padding:50px
+    background-image: url("range.jpg");
+}
