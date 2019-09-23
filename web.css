@@ -4,61 +4,81 @@ html, body{
     margin:0;
 }
 #body{
-    background-color:rgb(12, 235, 179);
+    background-color:#00ccff;
     font-size:14px
 }
 #topbar{
-    height:45px;
-    background-color: rgb(12, 235, 179);
+    height:70px;
+    background-color: navy;
 }
 #topbar #left{
     width:30%;
     float:left;
     height:100%;
-    font-size:40px;
+    font-size:50px;
+    color: aquamarine;
+    padding-left: 60px;
    
 }
 #topbar #right{
-    width:50%;
+    width:30%;
     float:right;
     height:100%;
-    font-size:40px;
+    font-size:60px;
    
 }
 #topbar #right a{
     display:inline;
-    font-size:40px;
-    background-color:rgb(2, 2, 2);
+    font-size:30px;
     text-decoration:none;
+    background-color:aquamarine;
+
 }
+
 #topbar #right a:hover{
-    padding: 20px;
+    padding: 10px;
     color:red;
 }
-/*startof bg.image*/
-.container {
-    position: relative;
-    font-family: Arial;
-  }
-  
-  .text-block {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(255, 8, 0);
-    color: white;
+
+#middlebar{
+    height: 800px;
+    background-image: url("range.jpg");
+    background-size: cover;
+    font-size: 3vw;;
+    color:black; 
+    font-style: oblique; 
+}
+#text{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+#middlebar a{
+    text-decoration: none;
+    padding: 60px;
+}
+#bottombar{
+        height:800px;
+        background-color: navy;
+}
+#bottombar #leftside{
+    width:40%;
+    float:left;
+    height:100%;
+    font-size:40px;
+    color: antiquewhite;
+}
+#bottombar #leftside ul{
     text-align: center;
- }
- 
- 
- 
-  
+    list-style-type:none;
+}
+#bottombar #rightside{
+    width:40%;
+    float:right;
+    height:100%;
+    font-size:30px;
+    color: antiquewhite;
+}
+#bottombar #rightside i{
+    color: black;
+}
+
